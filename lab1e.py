@@ -18,6 +18,6 @@ quantity = 10.29 # Quantity variable
 stock = 8.8 # Stock variable
 
 product = quantity * stock # Product Variable, Quantity multiplied by Stock
-print(f"The product of quantity and stock is {product}") # 1 space before the answer
-print("The product of quantity and stock is %s%.2f" % (" " * 4, product)) # 4 spaces before the answer
-print("The product of quantity and stock is %s%.2f" % (" " * 7, product)) # 7 spaces before the answer and only goes to the hundredths (-.--)
+print("The product of quantity and stock is %1d" % (product)) # 1 space before the answer
+print("The product of quantity and stock is %4d" % (product)) # 4 spaces before the answer
+print("The product of quantity and stock is %7.2f" % (product)) # 7 spaces before the answer and only goes to the hundredths (-.--)
