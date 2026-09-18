@@ -13,7 +13,8 @@
 # The script, when executed, should print out "How are you yourname? Happy xxth birthday!" To print this output use .format() method. 
 
 name = "Jayden Lato" # Variable with my name
-name.upper() # Changing my name to be fully upper case
+print(name)
+name = name.upper() # Changing my name to be fully upper case
 age = 18 # My current age
 print(f"How are you, {name}? Happy {age}th birthday!") # Print statement with the name and age variables
 
